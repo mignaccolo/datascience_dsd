@@ -1,0 +1,16 @@
+pdf_type,central_moment,xmin,xmax
+flux,mu,0.3,1.5
+flux,sigma,0,0.75
+flux,gamma,-0.5,2.5
+flux,kappa,2,12.5
+flux,eta,-2.5,65
+cloudexpo,mu,0.3,1.5
+cloudexpo,sigma,0,0.75
+cloudexpo,gamma,-0.5,2.5
+cloudexpo,kappa,2,18
+cloudexpo,eta,-2.5,115
+cloudplaw,mu,0.3,1.5
+cloudplaw,sigma,0,0.75
+cloudplaw,gamma,-0.5,2.5
+cloudplaw,kappa,2,18
+cloudplaw,eta,-2.5,100
