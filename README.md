@@ -27,7 +27,7 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
 - __LICENSE.txt__: License file
 
-- __README. md/hmtl__: This very file in markdown and html format.
+- __README. md__: This very file in markdown and html format.
 
 - __data_catalog.csv__: The "database" catalog of all the dataset used in [[manuscript]](https:\\duckduckgo.com). All python code used for the analysis expect the disdrometer datasets to be organized in a catalog. 
 
@@ -68,13 +68,13 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
   - xmax: maximum value of the parameter
 
-- __Walkthrough_Analysis_ALE.md/html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the ALE dataset. 
+- __Walkthrough_Analysis_ALE.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the ALE dataset. 
 
-- __Walkthrough_Analysis_BBY.md/html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the BBY dataset.
+- __Walkthrough_Analysis_BBY.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the BBY dataset.
 
-- __Walkthrough_Analysis_DRW.md/html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the DRW dataset.
+- __Walkthrough_Analysis_DRW.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the DRW dataset.
 
-- __Walkthrough_Analysis_PES.md/html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the PES dataset.
+- __Walkthrough_Analysis_PES.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the PES dataset.
 
 
 
