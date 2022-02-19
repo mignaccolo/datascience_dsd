@@ -1,4 +1,4 @@
-pdf_type,central_moment,xmin,xmax
+renorm_type,statistical_moment,xmin,xmax
 flux,mu,0.3,1.5
 flux,sigma,0,0.75
 flux,gamma,-0.5,2.5
