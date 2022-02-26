@@ -27,7 +27,13 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
 - __LICENSE.txt__: License file
 
-- __README. md__: This very file in markdown and html format.
+- __README.md__: This very file in markdown format.
+
+- __requirements.txt__: The list of python3 packages required to run all python code. Run the below command to install all the packages
+
+  ```shell
+  pip3 install -r requirements.txt
+  ```
 
 - __data_catalog.csv__: The "database" catalog of all the dataset used in [[manuscript]](https:\\duckduckgo.com). All python code used for the analysis expect the disdrometer datasets to be organized in a catalog. 
 
@@ -38,9 +44,15 @@ In addition to the code 4 representative data sets (one for each type of disdrom
   - INSTRUMENT: Type of disdrometer used to collect the data
   - CELLLIMITS: if applicable the filename of disdrometer class limits. 
     - = NONE for 2DVD disdormeter data
+    
     - = standard (no actual file) for Joss-WaldVogel RD80 data 
+    
+    - ```
+      <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+      ```
   - AREA_INSTRUMENT: the catchment area of the instrument
   - TIME_RESOLUTION: time resolution of data
+    
     - 2DVD are always binned into 60s time intervals for purposes of statistical analysis 
   - ORIGIN: Data Origin. E.g. NASA campaign data
   - ADD_INFO: Any other additional information. E.g. 'Composite' indicates data set is the composition of other database datasets 
