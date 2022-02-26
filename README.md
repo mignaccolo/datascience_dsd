@@ -56,19 +56,19 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
   - renorm_type: a keyword referencing a set of values. User is free to adopt any keyword and renormalization parameters. We adopted keywords that relate to the methodology used to derive proper renormalization parameters. 
 
-    - flux $\rightarrow$ min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the flux probability density function of  $p(D)$: see online material for detailed explanation.
+    - flux: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the flux probability density function of  p(D): see online material for detailed explanation.
 
-    - cloudexpo $\rightarrow$ min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  $f(D)$ when drops of non-2DVD data have an "exponential" diameter-speed velocity relation: see online material for detailed explanation.
+    - cloudexpo: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  f(D) when drops of non-2DVD data have an "exponential" diameter-speed velocity relation: see online material for detailed explanation.
 
-    - cloudplaw $\rightarrow$  min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  $f(D)$ when drops of non-2DVD data have an "power law" diameter-speed velocity relation: see online material for detailed explanation.
+    - cloudplaw: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  f(D) when drops of non-2DVD data have an "power law" diameter-speed velocity relation: see online material for detailed explanation. 
 
     - renormalization equation is 
-      $$
-      x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}
-      $$
       
+      ```
+      <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}" />
+      ```
 
-  - statistical_moment: one of the 5 statistical moments considered ($[\mu, \sigma, \gamma,\kappa,\eta]$)
+  - statistical_moment: one of the 5 statistical moments considered ([<sub>&theta;</sub>, \sigma, \gamma,\kappa,\eta])
 
   - xmin: minimum value of the parameter
 
@@ -89,7 +89,7 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 We wish to sincerely thank colleagues and institutions who have generously provided disdrometer data.
 
 1. Dr. C. R. Williams, the National Oceanic and Atmospheric Administration (NOAA) and Physical Sciences Laboratory (PSL) for the public availability of the BBY, and DRW datasets.
-2. Dr. Ali Tokay and National Aeronautics and Space Administration (NASA) for the public availability of the the  Global Precipitation Measurement (GPM) mission Ground Validation HYMEX campain: ALE and PES datasets.
+2. Dr. Ali Tokay and National Aeronautics and Space Administration (NASA) for the public availability of the the  Global Precipitation Measurement (GPM) mission Ground Validation HYMEX campaign: ALE and PES datasets.
 
 Mutual Information analysis was done adopting the Local Non-uniformity Correction via the python package [NPEET\_LNC](https://github.com/BiuBiuBiLL/NPEET_LNC), while nearest neighbors search in the statistical moments space associated with a rain drop size distribution were done using the python package [GriSpy](https://grispy.readthedocs.io/en/latest/).
 
