@@ -68,9 +68,9 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
   - statistical_moment: one of the 5 statistical moments considered ([&mu;, &sigma;, &gamma;, &kappa;, &eta;])
 
-  - xmin: minimum value of the parameter
+  - x<sub>min</sub>: minimum value of the parameter
 
-  - xmax: maximum value of the parameter
+  - x<sub>max</sub>: maximum value of the parameter
 
 - __Walkthrough_Analysis_ALE.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the ALE dataset. 
 
