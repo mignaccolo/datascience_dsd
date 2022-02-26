@@ -3,7 +3,7 @@
 
 This repository contains the code necessary to analyze disdrometer data, and explore the "data scientist" parametrization of the rain drop size distribution. 
 
-The data scientist approach to the rain drop size distribution is discussed in detail in "A worldwide data science investigation of rainfall" by M. Ignaccolo & C. DeMichele: [[manuscript]](https:\\duckduckgo.com).
+The data scientist approach to the rain drop size distribution is discussed in detail in "A worldwide data science investigation of rainfall" by M. Ignaccolo & C. DeMichele: [[manuscript]](https:\\duckduckgo.com) <font color=FF4500>(accepted for publication link will be updated as soon as available)</font>.
 
 In addition to the code 4 representative data sets (one for each type of disdrometer: 2dvd, Parsivel, RD69, and RD80) are included together with 4 walk through documents (in markdown and html format) that showcase how to perform the analysis  conducted in [[manuscript]](https:\\duckduckgo.com).
 
@@ -44,15 +44,10 @@ In addition to the code 4 representative data sets (one for each type of disdrom
   - INSTRUMENT: Type of disdrometer used to collect the data
   - CELLLIMITS: if applicable the filename of disdrometer class limits. 
     - = NONE for 2DVD disdormeter data
-    
     - = standard (no actual file) for Joss-WaldVogel RD80 data 
-    
-    - ```
-      <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-      ```
+    - <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
   - AREA_INSTRUMENT: the catchment area of the instrument
   - TIME_RESOLUTION: time resolution of data
-    
     - 2DVD are always binned into 60s time intervals for purposes of statistical analysis 
   - ORIGIN: Data Origin. E.g. NASA campaign data
   - ADD_INFO: Any other additional information. E.g. 'Composite' indicates data set is the composition of other database datasets 
@@ -62,19 +57,19 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
   - renorm_type: a keyword referencing a set of values. User is free to adopt any keyword and renormalization parameters. We adopted keywords that relate to the methodology used to derive proper renormalization parameters. 
 
-    - flux $\rightarrow$ min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the flux probability density function of  $p(D)$: see online material for detailed explanation.
+  - flux: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the flux probability density function of  p(D): see online material for detailed explanation.
 
-    - cloudexpo $\rightarrow$ min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  $f(D)$ when drops of non-2DVD data have an "exponential" diameter-speed velocity relation: see online material for detailed explanation.
+  - cloudexpo: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  f(D) when drops of non-2DVD data have an "exponential" diameter-speed velocity relation: see online material for detailed explanation.
 
-    - cloudplaw $\rightarrow$  min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  $f(D)$ when drops of non-2DVD data have an "power law" diameter-speed velocity relation: see online material for detailed explanation.
+  - cloudplaw:  min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  f(D) when drops of non-2DVD data have an "power law" diameter-speed velocity relation: see online material for detailed explanation.
 
-    - renormalization equation is 
-      $$
-      x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}
-      $$
-      
+  - renormalization equation is 
 
-  - statistical_moment: one of the 5 statistical moments considered ($[\mu, \sigma, \gamma,\kappa,\eta]$)
+    <img src="https://render.githubusercontent.com/render/math?math=x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}">
+
+  - statistical_moment: one of the 5 statistical moments considered
+
+    <img src="https://render.githubusercontent.com/render/math?math=[\mu, \sigma, \gamma,\kappa,\eta]">
 
   - xmin: minimum value of the parameter
 
@@ -95,7 +90,7 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 We wish to sincerely thank colleagues and institutions who have generously provided disdrometer data.
 
 1. Dr. C. R. Williams, the National Oceanic and Atmospheric Administration (NOAA) and Physical Sciences Laboratory (PSL) for the public availability of the BBY, and DRW datasets.
-2. Dr. Ali Tokay and National Aeronautics and Space Administration (NASA) for the public availability of the the  Global Precipitation Measurement (GPM) mission Ground Validation HYMEX campain: ALE and PES datasets.
+2. Dr. Ali Tokay and National Aeronautics and Space Administration (NASA) for the public availability of the the  Global Precipitation Measurement (GPM) mission Ground Validation HYMEX campaign: ALE and PES datasets.
 
 Mutual Information analysis was done adopting the Local Non-uniformity Correction via the python package [NPEET\_LNC](https://github.com/BiuBiuBiLL/NPEET_LNC), while nearest neighbors search in the statistical moments space associated with a rain drop size distribution were done using the python package [GriSpy](https://grispy.readthedocs.io/en/latest/).
 
