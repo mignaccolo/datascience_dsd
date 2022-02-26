@@ -62,9 +62,9 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
     - cloudplaw: min and max value are obtained analyzing the 5% and 95% percentiles of the statistical moments of the cloud probability density function of  f(D) when drops of non-2DVD data have an "power law" diameter-speed velocity relation: see online material for detailed explanation. 
 
-    - renormalization equation is 
+    - renormalization equation is:
 
-      <img src="https://latex.codecogs.com/svg.latex?x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}" title="renormalization" />
+      <img src="https://render.githubusercontent.com/render/math?math=x \rightarrow x_{r}=\frac{x-x_{min}}{x_{max}-x_{min}}">
 
   - statistical_moment: one of the 5 statistical moments considered ([&mu;, &sigma;, &gamma;, &kappa;, &eta;])
 
