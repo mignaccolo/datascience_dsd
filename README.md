@@ -3,7 +3,7 @@
 
 This repository contains the code necessary to analyze disdrometer data, and explore the "data scientist" parametrization of the rain drop size distribution. 
 
-The data scientist approach to the rain drop size distribution is discussed in detail in "A worldwide data science investigation of rainfall" by M. Ignaccolo & C. DeMichele: [[manuscript]](https:\\duckduckgo.com) (in printing, link will be updated asap).
+The data scientist approach to the rain drop size distribution is discussed in detail in "A worldwide data science investigation of rainfall" by M. Ignaccolo & C. DeMichele: [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml) (in printing, link will be updated asap).
 
 In addition to the code 4 representative data sets (one for each type of disdrometer: 2dvd, Parsivel, RD69, and RD80) are included together with 4 walk through documents (in markdown and html format) that showcase how to perform the analysis  conducted in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml).
 
@@ -15,7 +15,7 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
 ##### <font color=FF4500>Folders</font>
 
-- __disdrometer_data_raw__: 4 raw disdrometers data (part of the 166 datasets used in [[manuscript]](https:\\duckduckgo.com)) . One dataset for each type of disdrometer considered in.
+- __disdrometer_data_raw__: 4 raw disdrometers data (part of the 166 datasets used in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml)) . One dataset for each type of disdrometer considered in.
   - ALE sub folder: 2DVD disdrometer data
   - BBY sub folder: Joss-Waldvogel RD80  disdrometer data
   - DRW sub folder: Joss-Waldvogel RD69  disdrometer data
@@ -35,7 +35,7 @@ In addition to the code 4 representative data sets (one for each type of disdrom
   pip3 install -r requirements.txt
   ```
 
-- __data_catalog.csv__: The "database" catalog of all the dataset used in [[manuscript]](https:\\duckduckgo.com). All python code used for the analysis expect the disdrometer datasets to be organized in a catalog. 
+- __data_catalog.csv__: The "database" catalog of all the dataset used in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml). All python code used for the analysis expect the disdrometer datasets to be organized in a catalog. 
 
   - GEO_ID: Country or Earth's Region where data were collected 
   - DSN: Data Set Number (catalog does not need to be ordered by DSN)
@@ -72,13 +72,13 @@ In addition to the code 4 representative data sets (one for each type of disdrom
 
   - x<sub>max</sub>: maximum value of the parameter
 
-- __Walkthrough_Analysis_ALE.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the ALE dataset. 
+- __Walkthrough_Analysis_ALE.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml) for the ALE dataset. 
 
-- __Walkthrough_Analysis_BBY.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the BBY dataset.
+- __Walkthrough_Analysis_BBY.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml) for the BBY dataset.
 
-- __Walkthrough_Analysis_DRW.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the DRW dataset.
+- __Walkthrough_Analysis_DRW.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml) for the DRW dataset.
 
-- __Walkthrough_Analysis_PES.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https:\\duckduckgo.com) for the PES dataset.
+- __Walkthrough_Analysis_PES.html__: Step by step guided analysis reproducing the analysis in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml) for the PES dataset.
 
 
 
