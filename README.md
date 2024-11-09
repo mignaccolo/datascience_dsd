@@ -5,7 +5,7 @@ This repository contains the code necessary to analyze disdrometer data, and exp
 
 The data scientist approach to the rain drop size distribution is discussed in detail in "A worldwide data science investigation of rainfall" by M. Ignaccolo & C. DeMichele: [[manuscript]](https:\\duckduckgo.com) (in printing, link will be updated asap).
 
-In addition to the code 4 representative data sets (one for each type of disdrometer: 2dvd, Parsivel, RD69, and RD80) are included together with 4 walk through documents (in markdown and html format) that showcase how to perform the analysis  conducted in [[manuscript]](https:\\duckduckgo.com).
+In addition to the code 4 representative data sets (one for each type of disdrometer: 2dvd, Parsivel, RD69, and RD80) are included together with 4 walk through documents (in markdown and html format) that showcase how to perform the analysis  conducted in [[manuscript]](https://journals.ametsoc.org/view/journals/hydr/23/7/JHM-D-21-0211.1.xml).
 
 <font color=FFA500>__Note__</font>: All code is Python 3.8, and GNU GPLv3 licensed. Code has been tested on machine with Linux Mint 20 Cinnamon v:4.6.7, Linux Kernel v:5.4.0-97-generic.
 
